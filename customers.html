@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Work+Sans:wght@200;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>Customers</title>
+    <link rel="stylesheet"href="customers.css">
+</head>
+<h1>Customers Page
+    <p>Selet Customers to Transfer Money </p>
+</h1>
+<body>
+    <table>
+        <tr>
+            <td>No</td>
+            <th  >NAME</th>
+            <th >EMAIL</th>
+            <th>Balance</th>
+        </tr>
+
+        <tbody>
+
+    <tr>
+        <td >1</td>
+        <td>Mahmoud</td>
+        <td>Mahmoud@gmail.com</td>
+        <td>
+            <p> 312000</p>
+        </td>
+    </tr >
+    <tr>
+        <td>2</td>
+        <td>Haitham</td>
+        <td>Haitham@gmail.com</td>
+        <td>
+        <p >125052</p>  
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Aliaa</td>
+        <td>Aliaa@gmail.com</td>
+        <td>
+            <p> 312000</p>
+        </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Maha</td>
+        <td>Maha@gmail.com</td>
+        <td>
+        <p > 352000</p> 
+        </td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Hassan</td>
+        <td>Hassan@gmail.com</td>
+        <td>
+            <p> 312500</p>
+        </td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Ali</td>
+        <td>Ali@gmail.com</td>
+        <td>
+            <p>34100</p> 
+        </td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Menna</td>
+        <td>Menna@gmail.com</td>
+        <td>
+            <p> 312000</p>
+        </td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Nour</td>
+        <td>nour@gmail.com</td>
+        <td>
+        <p>250000</p>  
+        </td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Toka</td>
+        <td>Toka@gmail.com</td>
+        <td>
+            <p>30000</p>
+        </td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>barbarh</td>
+        <td>barbarh@gmail.com</td>
+        <td>
+        <p >15000</p>    
+        </td>
+    </tr>
+        </tbody>
+    </table>
+<form class="row g-3 needs-validation d-f justify-content-center align-items-center" novalidate>
+    <div class="col-md-7">
+        <label for="validationCustom01" class="form-label ">Sender name</label>
+        <input type="text" class="form-control " id="SenderName" placeholder="Sender name" required>
+    </div>
+    <div class="col-md-7">
+        <label for="validationCustom01" class="form-label ">Recipient name</label>
+        <input type="text" class="form-control " id="RecipientName" placeholder="Recipient's name" required>
+    </div>
+    <div class="col-md-7 ">
+        <label for="validationCustomUsername" class="form-label">Money</label>
+        <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">$</span>
+            <input type="text" class="form-control" id="money" placeholder="Amount"aria-describedby="inputGroupPrepend"
+                required>
+    </div>
+    <br>
+    <div class="col-12">
+        <button class="btn btn-primary"id="btn" type="submit">Transfer Now</button>
+    </div>
+    <table>
+        <tr>
+            <td>Sender Name</td>
+            <th>Recipient Name</th>
+            <th>Amount</th>
+        </tr>  
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+</form>
+<a class="home" href="index.html">Home</a>
+<script src="main.js"></script>
+</body>
+</html>
