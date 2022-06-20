@@ -19,8 +19,8 @@ table tr:nth-of-type(odd){
     background-color: gray;
 }
 table th {
-    background-color: black;
-    color: gold;
+    background-color: white;
+    color: black;
 }
 
 th,
