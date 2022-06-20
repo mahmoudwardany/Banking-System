@@ -15,6 +15,13 @@ table {
     font-weight: bolder;
 
 }
+table tr:nth-of-type(odd){
+    background-color: gray;
+}
+table th {
+    background-color: black;
+    color: gold;
+}
 
 th,
 td {
