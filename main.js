@@ -1,11 +1,3 @@
-/*function transfer () {
-var enterName = document.getElementById('enterName').value
-var amount = parseInt(document.getElementById('money').value)
-var findaccountuser = enterName ;
-var finalAmount = parseInt(document.getElementById(findaccountuser).innerText)+amount;
-document.getElementById(finalAmount).innerHTML=finalAmount;
-alert(`Successful transcation !!
-$${amount}Sent to ${enterName}`)}*/
 let transfer = document.getElementById('btn')
 let SenderName = document.getElementById('SenderName')
 let RecipientName = document.getElementById('RecipientName')
@@ -19,7 +11,8 @@ if(localStorage.transfe !=null){
   datapro=[]
 }
 
-transfer.onclick=function(){
+transfer.onclick=function(e){
+  e.preventDefault()
   let newpro = {
     SenderName:SenderName.value,
     RecipientName:RecipientName.value,
