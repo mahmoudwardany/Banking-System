@@ -57,6 +57,6 @@ background-color: green;
 @media (min-width:300px) and (max-width:767px){
     table{
         width:58%;
-        margim:auto
+        margin:auto
     }
 }
